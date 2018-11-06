@@ -1,0 +1,24 @@
+loteria=input("Te a tocado la loteria? ")
+if(loteria=="Si"):
+    print("Puedes ganar 3.000 euros al mes")
+
+casar=input("Te casas con un(a) milloneti? ")
+edad=int(input("Que edad tiene? "))
+enfermedad=input("Tiene problemas de corazon? ")
+casada=input("Esta casado(a)? ")
+if((casar=="Si")and(edad>=80)and(enfermedad=="Si")and(casada=="No")):
+    print("Puedes ganar 3.000 euros al mes")
+
+estudiar=input("Cuanto has estudiado, mucho o poco? ")
+M01=int(input("Que nota has sacado? "))
+M02=int(input("Que nota has sacado? "))
+M03=int(input("Que nota has sacado? "))
+M05=int(input("Que nota has sacado? "))
+if((estudiar=="Mucho")and(M01>=9)and(M02==10)and(M03>=8)and((M05>=6)and(M05<=8))):
+    print("Puedes ganar 3.000 euros la mes")
+
+Ponderada=((M01*0.30)and(M02*0.40)and(M03*0.25)and(M05*0.05))
+if(Ponderada>=8): 
+    print("Puedes ganar 3.000 euros al mes")
+else:
+    print("No puedes ganar 3.000 euros al mes")
