@@ -1,9 +1,9 @@
 loteria=input("Te a tocado la loteria? ")
-if(loteria=="Si"):
+if(loteria=="Si")or(loteria=="si")or(loteria=="sI")or(loteria=="SI"):
     print("Puedes ganar 3.000 euros al mes")
 
 casar=input("Te casas con un(a) milloneti? ")
-edad=int(input("Que edad tiene? "))
+edad=int(input("Que ed""ad tiene? "))
 enfermedad=input("Tiene problemas de corazon? ")
 casada=input("Esta casado(a)? ")
 if((casar=="Si")and(edad>=80)and(enfermedad=="Si")and(casada=="No")):
