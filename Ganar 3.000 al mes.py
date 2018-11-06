@@ -22,3 +22,10 @@ if(Ponderada>=8):
     print("Puedes ganar 3.000 euros al mes")
 else:
     print("No puedes ganar 3.000 euros al mes")
+    
+OTRA MANERA:
+Ponderada=((M01*0.30)+(M02*0.40)+(M03*0.25)+(M05*0.05))
+if(Ponderada>=8)and(estudiar=="Mucho"):
+    print("Puedes ganar 3.000 euros al mes")
+else:
+    print("No puedes ganar 3.000 euros al mes")
