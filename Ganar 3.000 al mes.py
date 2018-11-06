@@ -6,7 +6,7 @@ casar=input("Te casas con un(a) milloneti? ")
 edad=int(input("Que edad tiene? "))
 enfermedad=input("Tiene problemas de corazon? ")
 soltera=input("Esta soltero(a)? ")
-if((casar=="Si")and(edad>=80)and(enfermedad=="Si")and(casada=="No")):
+if((casar=="Si")and(edad>=80)and(enfermedad=="Si")and(soltera=="No")):
     print("Puedes ganar 3.000 euros al mes")
 
 estudiar=input("Cuanto has estudiado, mucho o poco? ")
