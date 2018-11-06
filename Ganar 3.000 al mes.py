@@ -10,10 +10,10 @@ if((casar=="Si")and(edad>=80)and(corazon=="Si")and(soltera=="No")):
     print("Puedes ganar 3.000 euros al mes")
 
 estudiar=input("Cuanto has estudiado, mucho o poco? ")
-M01=int(input("Que nota has sacado? "))
-M02=int(input("Que nota has sacado? "))
-M03=int(input("Que nota has sacado? "))
-M05=int(input("Que nota has sacado? "))
+M01=int(input("Que nota has sacado en el modulo M01? "))
+M02=int(input("Que nota has sacado en el modulo M02? "))
+M03=int(input("Que nota has sacado en el modulo M03? "))
+M05=int(input("Que nota has sacado en el modulo M05? "))
 if((estudiar=="Mucho")and(M01>=9)and(M02<=10)and(M03>=8)and((M05>=6)and(M05<=8))):
     print("Puedes ganar 3.000 euros la mes")
 
