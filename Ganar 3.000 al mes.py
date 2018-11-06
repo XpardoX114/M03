@@ -17,7 +17,7 @@ M05=int(input("Que nota has sacado? "))
 if((estudiar=="Mucho")and(M01>=9)and(M02==10)and(M03>=8)and((M05>=6)and(M05<=8))):
     print("Puedes ganar 3.000 euros la mes")
 
-Ponderada=((M01*0.30)and(M02*0.40)and(M03*0.25)and(M05*0.05))
+Ponderada=((M01*0.30)+(M02*0.40)+(M03*0.25)+(M05*0.05))
 if(Ponderada>=8): 
     print("Puedes ganar 3.000 euros al mes")
 else:
