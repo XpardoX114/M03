@@ -1,5 +1,5 @@
-CAPRADOR DE AÑOS:
-
+COMPARADOR DE AÑOS:
+    
 anyo_actual=int(input("En que año estamos? "))
 anyo_cualquiera=int(input("Indique un año cualquiera: "))
 
