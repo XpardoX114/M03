@@ -1,11 +1,10 @@
 #EJERCICIO:
 #Hacer un codigo el cual te indique si el numero es positivo o negativo.
 #JUEGO DE PUREBAS:
-  #  - Si el número es mas garande que 0
-  #  - Si el número es mas pequeño que 0
-  #  - Si el número es igual a 0
-  #  - Si el numero n es negativo
-  #  - Si el 0 es positivo, negativo o neutral
+  #  - Si el número es mas garande que 0 (positivo).
+  #  - Si el número es mas pequeño que 0 (negativo).
+  #  - Si el número es igual a 0.
+  #  - Si el 0 es positivo, negativo o neutral.
 
 #EL 0 ES POSITIVO:
 numero=int(input("Indique un número: "))
