@@ -1,7 +1,7 @@
 JUEGO DE PRUEBAS:
 
 | Dividendo | Divisor | Pruebas | 
-| -------   | ------  |--------| 
+| -------   | ------  | -------- |  
 | 0         | 0000    | 0           | 
 | 0         | 0001    | 1           | 
 | 1         | 0010    | 2           |
@@ -18,3 +18,10 @@ JUEGO DE PRUEBAS:
 |         | 1101    | D           | 
 |         | 1110    | E           | 
 |         | 1111    | F           | 
+
+
+
+
+| hola | hola | hola |
+| ---- | ---- | ---- |
+| adios | adios | adios |
