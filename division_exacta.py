@@ -13,5 +13,11 @@
 
 dividendo=int(input("Indique el dividendo: "))
 divisor=int(input("Indique el divisor: "))
-if=(dividendo/divisor):
-  
+if(dividendo<=0 or divisor<=0)():
+    print("El dividendo i/o el divisor es 0")
+else: 
+    if(dividendo % divisor):
+            print("La division no es exacta. El cociente es", (dividendo//divisor))
+            Resultado=(dividendo//divisor), "Resto", (dividendo % divisor)
+    else:
+        print("La división es exacta. El cociente es", (dividendo//divisor)
