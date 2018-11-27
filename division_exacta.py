@@ -11,4 +11,7 @@
 
 #CODIGO:
 
-int(input(""))
+dividendo=int(input("Indique el dividendo: "))
+divisor=int(input("Indique el divisor: "))
+if=(dividendo/divisor):
+  
