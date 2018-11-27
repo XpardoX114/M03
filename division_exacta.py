@@ -8,3 +8,7 @@
 #Escriba el dividendo: 20
 #Escriba el divisor: 4
 #La división es exacta. Cociente: 5
+
+#CODIGO:
+
+int(input(""))
