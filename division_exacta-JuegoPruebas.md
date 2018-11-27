@@ -1,7 +1,7 @@
 JUEGO DE PRUEBAS:
 
-| Dividendo | Divisor | Hexadecimal | 
-| -------   | ------  | ----------- | 
+| Dividendo | Divisor | Pruebas | 
+| -------   | ------  | --------| 
 | 0         | 0000    | 0           | 
 | 0         | 0001    | 1           | 
 | 1         | 0010    | 2           |
